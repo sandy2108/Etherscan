@@ -33,9 +33,8 @@ function App() {
 
   return (
       <>
-      
-        <div className="App">Block Number: {blockNumber}</div>;
-
+        <Navbar/>
+        <div className="App">Block Number: {blockNumber}</div>
       </>
   ) 
   }

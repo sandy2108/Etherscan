@@ -1,0 +1,30 @@
+export const navItems = [
+    {
+        title:'Home',
+        link: '/',
+    },
+    {
+        title:'Blockchain',
+        link:'/',
+    },
+    {
+        title:'Tokens',
+        link:'/'
+    },
+    {
+        title:'NFT',
+        link:'https://nftseeker-sandy2108-protonmailc.vercel.app/',
+    },
+    {
+        title:'Resources',
+        link:'/'
+    },
+    {
+        title:'Developers',
+        link:'/'
+    },
+    {
+        title:'More',
+        link:'/'
+    }
+]
