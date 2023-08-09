@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 
 import './App.css';
 import Navbar from './components/Navbar';
+import SearchBar from './components/SearchBar';
 
 // Refer to the README doc for more information about using API
 // keys in client-side code. You should never do this in production
@@ -34,6 +35,7 @@ function App() {
   return (
       <>
         <Navbar/>
+        <SearchBar/>
         <div className="App">Block Number: {blockNumber}</div>
       </>
   ) 
