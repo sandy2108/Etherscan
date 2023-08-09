@@ -22,3 +22,4 @@ export const SvgEthereumIcon = ({ width = 30, height = 30 }) => {
       </svg>
     );
   };
+
