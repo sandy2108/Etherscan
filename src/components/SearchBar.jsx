@@ -14,7 +14,7 @@ const SearchBar = () => {
         backgroundImage: "url('/images/search-bg.svg')",
       }}
     >
-      <div className="max-w-[1240px] pt-10 mx-auto px-5">
+      <div className="max-w-[1340px] pt-10 mx-auto px-5">
         <h1 className="text-white text-[20px] leading-[24px] mb-2">
           The Ethereum Blockchain Explorer
         </h1>

@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full bg-slate-100">
-      <div className="max-w-[1240px] mx-auto px-4 py-2">
+      <div className="max-w-[1340px] mx-auto px-4 py-2">
         <div className="flex items-center justify-between">
           <div className="text-white cursor-pointer">
             <a href="/"><EtherscanIcon className="max-w-[150px] max-h-[40px]" /></a>
