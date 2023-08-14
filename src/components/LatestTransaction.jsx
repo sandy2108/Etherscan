@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState,useEffect }  from "react";
+import {alchemy} from '../config/alchemy.config';
+import {TbNotes} from 'react-icons/tb'
 
-
-const LatestTransaction = () => {
+function LatestTransaction(){
   return (
     <div className="bg-white py-3 rounded-md shadow-md border border-stone-300 overflow-hidden ">
       {/* Heading Div */}
