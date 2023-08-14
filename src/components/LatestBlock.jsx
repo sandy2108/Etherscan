@@ -88,7 +88,7 @@ const BlockData = ({ miner, number, agoTimeStamp, transactions }) => {
             <div className="hidden sm:flex rounded-md bg-[#f8f9fa] p-4">
               <SvgBlockIcon />
             </div>
-            <div className=" mt-1  flex sm:block gap-1 ">
+            <div className=" mt-1 sm:ml-1 flex sm:block gap-1 ">
               <div className="sm:hidden flex">Block</div>
               <h1 className="text-[15px] text-center text-[#066a9c] leading-[22px] font-normal">
                 {number}
@@ -100,7 +100,7 @@ const BlockData = ({ miner, number, agoTimeStamp, transactions }) => {
           </div>
           <div className="w-full">
             <div className="flex flex-wrap md:flex-nowrap items-center  ">
-              <div className="mt-1 items-start">
+              <div className="mt-1  items-start">
                 <p className="text-[15px] leading-[22px] text-[#212529]">
                   Fee Receipts:{" "}
                   <span className="text-[#066a9c] cursor-pointer">
