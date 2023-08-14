@@ -1,4 +1,4 @@
-export const getShortenAddress = (address, length = 5) => {
+export const getShortenAddress = (address, length = 8) => {
     if (!address) return null;
   
     return (
@@ -6,3 +6,7 @@ export const getShortenAddress = (address, length = 5) => {
     );
   };
   
+export const getShortenFirstAddress = (addresses, length = 8) => {
+    if (!addresses) return null;
+    return addresses.slice(0, length) + " ...";
+};
