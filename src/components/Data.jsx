@@ -9,7 +9,7 @@ import {
 const Data = () => {
   return (
     <div className="relative -top-12">
-      <div className="max-w-[1340px] mx-auto p-4">
+      <div className="max-w-[1380px] mx-auto p-4">
         <div className="rounded-lg bg-white drop-shadow-sm border border-stone-300 ">
           <div className="py-3 px-5">
             <div className="grid md:grid-cols-12">

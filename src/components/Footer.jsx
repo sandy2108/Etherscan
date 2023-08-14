@@ -10,7 +10,7 @@ import { footerItems } from "../constants";
 const Footer = () => {
   return (
     <div className="w-full bg-[#f8f9fa]">
-      <div className="max-w-[1340px] mx-auto p-4">
+      <div className="max-w-[1380px] mx-auto p-4">
         {/* First row */}
         <div className="flex items-center justify-between pb-5 pt-3 border-b-2 border-slate-200">
           <div className=" flex gap-2">
