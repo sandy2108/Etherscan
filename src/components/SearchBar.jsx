@@ -1,5 +1,6 @@
 import React from "react";
 import { SvgSearchIcon } from "../Icons/SearchIcon";
+import { Link } from "react-router-dom";
 
 const SearchBar = () => {
   
@@ -24,9 +25,12 @@ const SearchBar = () => {
               placeholder="Search by Address / Txn Hash / Block / Token / Domain Name"
               className="pl-3 text-[15px] leading-[23px] my-1  rounded-md outline-0 w-full focus:outline-2 outline-slate-300 text-slate-600 placeholder:text-slate-600"
             />
+            <Link to='address'>
             <button className="flex items-center rounded-lg bg-blue-400 px-1 py-1 m-1" type="submit">
               <SvgSearchIcon/>
             </button>
+            </Link>
+           
           </span>
         </form>
       </div>
