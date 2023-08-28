@@ -1,28 +1,19 @@
 
-import './App.css';
-import Navbar from './components/Navbar';
-import SearchBar from './components/SearchBar';
-import Data from './components/Data';
-import LatestTransaction from './components/LatestTransaction';
-import LatestBlock from './components/LatestBlock';
-import Footer from './components/Footer';
 
+import {Switch,Route } from 'react-router-dom'; // Import from react-router-dom
+import Home from './pages/Home';
+import Address from './pages/Address';
 
 function App() {
   return (
-      <>
-        <Navbar/>
-        <SearchBar/>
-        <Data/>
-        <section className="max-w-[1380px] mx-auto px-4 bg-[#fbfbfe]">
-          <div className='grid md:grid-cols-2 gap-3 mb-10'>
-            <LatestBlock/>
-            <LatestTransaction/>
-          </div>
-        </section>
-        <Footer/>
+     <Switch>
+
+       <Route exact path="/" component={Home} />
+       <Route exact path="/address" component={Address}/>
        
-      </>
-  ) 
-  }
+     </Switch>
+   
+  );
+}
+
 export default App;
